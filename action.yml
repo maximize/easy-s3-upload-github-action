@@ -1,0 +1,9 @@
+name: "Simple S3 Upload"
+description: "Upload files and directories to S3 compatible cloud buckets"
+author: "Axa Zara Core Dev <core.dev@axazara.io"
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: message-square
+  color: gray-dark
