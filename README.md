@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Upload file to bucket
-        uses: koraykoska/s3-upload-github-action@master
+        uses: axazara/easy-s3-upload-github-action@main
         env:
           FILE: ./releases/
           S3_ENDPOINT: 'xxxx.r2.cloudflarestorage.com/xxxx'
